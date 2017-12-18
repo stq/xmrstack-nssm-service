@@ -13,14 +13,17 @@
  */
 "pool_list" :
 [
-	{"pool_address" : "xmrpool.eu:3333", "wallet_address" : "45FQFtYNXS1Md64b22YJkDeM4RvR92xeYXw92AQSqbUrMXJNaor7W6Ce8ir8Lc77xf5zxe7Mg4SKpMB7AbdrG141F2eWbcs", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+//	{"pool_address" : "xmrpool.eu:3333", "wallet_address" : "45FQFtYNXS1Md64b22YJkDeM4RvR92xeYXw92AQSqbUrMXJNaor7W6Ce8ir8Lc77xf5zxe7Mg4SKpMB7AbdrG141F2eWbcs", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+	{"pool_address" : "aeonpool.dreamitsystems.com:13333", "wallet_address" : "WmsuN7AReL2DqChWpVxQCELsoWJhHtvLxUFvqMovzsvSP5eHNFFyVMNFVoPytY2DLYS13aqzQpkSyjFtsGYx5v5F2PCdLGrDA", "pool_password" : "x", "use_nicehash" : false, "use_tls" : false, "tls_fingerprint" : "", "pool_weight" : 1 },
+
 ],
 
 /*
  * currency to mine
  * allowed values: 'monero' or 'aeon'
  */
-"currency" : "monero",
+//"currency" : "monero",
+"currency" : "aeon",
 
 /*
  * Network timeouts.
