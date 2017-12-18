@@ -1,4 +1,4 @@
-##XMR stack + nssm : Stable Monero/Aeon AMD/Intel/GPU miner as windows service
+**XMR stack + nssm : Stable Monero AMD/Intel/GPU miner as windows service**
 
 
 ##Guide
@@ -17,7 +17,7 @@ Don't worry if misstyped something, you can later fix it in *.txt files (CPU, GP
 it will work automatically then
 
 
-##Performance Hints
+*Performance Hints*
 
 Open cpu.txt
 Add or remove `{ "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },` entries according to overall pattern.
