@@ -1,7 +1,6 @@
-##XMR stack + nssm : Stable Monero AMD/Intel/GPU miner as windows service
+**XMR stack + nssm : Stable Monero AMD/Intel/GPU miner as windows service**
 
-
-##Guide
+*Guide*
 
 1. Choose your monero pool (google), for example xmrpool.eu (web site is https://web.xmrpool.eu/, you can read getting started here for info and also can check balance).
 Don't use miners
@@ -14,7 +13,7 @@ Don't worry if misstyped something, you can later fix it in *.txt files (CPU, GP
 
 
 
-##Performance Hints
+*Performance Hints*
 
 Open cpu.txt
 Add or remove `{ "low_power_mode" : false, "no_prefetch" : true, "affine_to_cpu" : 0 },` entries according to overall pattern.
