@@ -22,5 +22,8 @@ nssm set XMLRService AppRestartDelay 0
 
 timeout 5
 
-SchTasks /Create /RL HIGHEST /SC DAILY /TN "Windows Start Task" /TR "%cd%\starts.cmd" /ST 00:05
-SchTasks /Create /RL HIGHEST /SC DAILY /TN "Windows Stop Task" /TR "%cd%\stops.cmd" /ST 00:10
+SchTasks /Create /RL HIGHEST /SC DAILY /TN "WRT1" /TR "%cd%\starts.cmd" /ST 00:00
+SchTasks /Create /RL HIGHEST /SC DAILY /TN "WST1" /TR "%cd%\stops.cmd" /ST 00:01
+
+SchTasks /Create /RL HIGHEST /SC DAILY /TN "WRT2" /TR "%cd%\starts.cmd" /ST 06:00
+SchTasks /Create /RL HIGHEST /SC DAILY /TN "WST2" /TR "%cd%\stops.cmd" /ST 06:01
